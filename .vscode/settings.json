@@ -1,0 +1,12 @@
+{
+  "cSpell.words": [
+    "autodocs",
+    "colorschema"
+  ],
+
+  // Использовать Tailwind inselense внутри функции cva
+  "tailwindCSS.experimental.classRegex": [
+    ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
+    ["cx\\(([^)]*)\\)", "(?:'|`)([^'*)(?:'|\"|`)"],
+  ]
+}
