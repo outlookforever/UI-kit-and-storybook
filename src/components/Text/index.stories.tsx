@@ -15,7 +15,9 @@ type Story = StoryObj<typeof meta>
 
 export const Default: Story = {
 	args: {
-		children:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae dolores saepe non dolor culpa quo, asperiores commodi obcaecati ab sit!'
+		as: 'h1',
+		children: 'Hello word',
+		size: '2xl',
+		weight: 'black'
 	}
 }
