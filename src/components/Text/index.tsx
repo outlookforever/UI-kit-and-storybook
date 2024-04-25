@@ -43,5 +43,5 @@ const textStyles = cva('w-full', {
 type TextProps = ComponentProps<'span'> & VariantProps<typeof textStyles>
 
 export const Text = ({ ...props }: TextProps) => {
-	return <span {...props}>Text</span>
+	return <span {...props} />
 }
